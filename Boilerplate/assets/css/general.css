@@ -1,0 +1,33 @@
+.clickMe {
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100px;
+    box-shadow: 0 0 0 0px green;
+    transition: 0.3s;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.blue {
+    background-color: blue;
+}
+
+.over {
+    box-shadow: 0 0 0 20px green;
+}
